@@ -121,12 +121,21 @@ $('.brand-active').slick({
    {
      breakpoint: 1024,
      settings: {
-       slidesToShow: 4,
+       slidesToShow: 3,
        slidesToScroll:1,
        infinite: true,
        dots: false,
      }
    },
+   {
+     breakpoint: 767,
+     settings: {
+       slidesToShow: 2,
+       slidesToScroll:1,
+       infinite: true,
+       dots: false,
+     }
+   } ,
    {
      breakpoint: 600,
      settings: {
